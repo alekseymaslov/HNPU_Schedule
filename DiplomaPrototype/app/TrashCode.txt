@@ -1,0 +1,16 @@
+    private class DayDataStructure
+    {
+        public LocalDate time;
+        String [] data;
+        public DayDataStructure(LocalDate time, String [] data)
+        {
+            this.time = time;
+            this.data = data;
+        }
+
+        public DayDataStructure(String [] data)
+        {
+            this.time = LocalDate.now();
+            this.data = data;
+        }
+    }
